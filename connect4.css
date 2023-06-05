@@ -1,0 +1,31 @@
+/* game board table */
+/* td = table data */
+#board td {
+  border: solid 1px #666;
+  width: 60px;
+  height: 60px;
+} 
+
+/* pieces are div within game table cells: draw as colored circles */
+
+.piece {
+  margin: 5px;
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+}
+
+/* column-top is table row of clickable areas for each column */
+
+#column-top td {
+  border: dashed 1px lightgray;
+}
+
+#column-top td:hover {
+  background-color: gold;
+}
+
+input, button {
+  display: block;
+  margin-bottom: 10px;
+}
